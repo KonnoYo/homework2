@@ -19,7 +19,7 @@ class ProfileController extends Controller
     public function create()
     {
         
-        return view('admin/profile/cretae');
+        return view('admin/profile/create');
         
     }
     
@@ -34,8 +34,9 @@ class ProfileController extends Controller
     {
         
         
-        return view('admin/profile.edit');
+        return view('admin/profile/edit');
         
     }
     
 }
+
